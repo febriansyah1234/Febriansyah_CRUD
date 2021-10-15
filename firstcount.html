@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+		
+	<body style = "text-align:center;">
+	
+		<h1 style = "color:black;" >
+            MOCH FEBRIANSYAH SATRIA PUTRA
+		</h1>
+		
+		<input id = "input" type="text" name="input"/>
+		<button onclick="hitung()">
+			Click
+		</button>
+		<h3 id = "div" style="color: black">
+		</h3>
+			
+		<script>
+		
+		function hitung() {
+		var input = document.getElementById("input");
+		var x = document.getElementById("div");
+		var string = input.value;
+		x.innerHTML = string.split(' ')[1, 0];
+		}
+		</script>
+        
+	</body>
+</html>
